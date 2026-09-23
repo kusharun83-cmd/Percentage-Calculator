@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- diagonal gold bar of the percent sign -->
+    <path
+        android:strokeColor="#C9A227"
+        android:strokeWidth="7.2"
+        android:strokeLineCap="round"
+        android:pathData="M26,82 L82,26" />
+
+    <!-- bottom-right circle: profit (+) -->
+    <group>
+        <path
+            android:fillColor="#5FA66B"
+            android:pathData="M93,78 A15,15 0 1 1 92.99,78 Z" />
+        <path
+            android:strokeColor="#F6F5F1"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:pathData="M71,78 L85,78" />
+        <path
+            android:strokeColor="#F6F5F1"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:pathData="M78,71 L78,85" />
+    </group>
+
+    <!-- top-left circle: loss (-) -->
+    <group>
+        <path
+            android:fillColor="#C1584B"
+            android:pathData="M45,30 A15,15 0 1 1 44.99,30 Z" />
+        <path
+            android:strokeColor="#F6F5F1"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:pathData="M23,30 L37,30" />
+    </group>
+</vector>
+
